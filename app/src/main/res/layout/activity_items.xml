@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    app:cardCornerRadius="4dp"
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+
+        <ImageView
+            android:id="@+id/image_for_users"
+            android:contentDescription="@string/default_player_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="2dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/name_for_users"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_player_name"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/score_for_users"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_score"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginStart="200dp"/>
+
+        <ImageView
+            android:id="@+id/score_up_image"
+            android:contentDescription="@string/arrow_up_description"
+            android:layout_width="40dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="5dp"
+            android:padding="2dp" />
+
+        <ImageView
+            android:id="@+id/score_down_image"
+            android:contentDescription="@string/arrow_down_description"
+            android:layout_width="40dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="5dp"
+            android:padding="2dp" />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

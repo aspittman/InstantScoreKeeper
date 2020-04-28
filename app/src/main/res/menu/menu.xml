@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/menu_add_player"
+        android:id="@+id/add_player_option"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="@string/menu_add_game"
+        android:id="@+id/add_game_option"
+        android:orderInCategory="2"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="@string/menu_restart_game"
+        android:id="@+id/restart_game_option"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+
+</menu>

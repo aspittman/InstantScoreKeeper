@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Instant Score Keeper</string>
+
+    <!--Right menu-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_add_player">Add Player</string>
+    <string name="menu_add_game">Add Game</string>
+    <string name="menu_delete_player">Delete Player</string>
+    <string name="menu_restart_game">Restart Game</string>
+
+    <!--Nav menu-->
+    <string name="menu_home">Home</string>
+    <string name="menu_scoreboard">ScoreBoard</string>
+    <string name="menu_player_icons">Player Icons</string>
+    <string name="menu_day_night_mode">Day/Night Mode</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_about">About</string>
+    <string name="menu_share">Share Score</string>
+    <string name="menu_send">Send Notification</string>
+
+    <!--Nav Header-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Activity Items    -->
+    <string name="default_player_icon">Player Icon</string>
+    <string name="default_player_name">Player Name</string>
+    <string name="default_score">0</string>
+    <string name="arrow_up_description">Score Up Click</string>
+    <string name="arrow_down_description">Score Down Click</string>
+
+
+</resources>

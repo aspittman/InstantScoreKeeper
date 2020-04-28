@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_score">
+
+    <fragment
+        android:id="@+id/nav_score"
+        android:name="com.example.instantscorekeeper.ScoreSet.ScoreFragment"
+        android:label="@string/menu_scoreboard"
+        tools:layout="@layout/fragment_score" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.instantscorekeeper.GallerySet.GalleryFragment"
+        android:label="@string/menu_player_icons"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.instantscorekeeper.NotificationSet.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.instantscorekeeper.ShareSet.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.instantscorekeeper.AboutSet.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_share" />
+
+</navigation>
