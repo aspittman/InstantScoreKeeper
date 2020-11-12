@@ -14,7 +14,7 @@
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.instantscorekeeper.GallerySet.GalleryFragment"
+        android:name="com.example.instantscorekeeper.gallery.GalleryFragment"
         android:label="@string/menu_player_icons"
         tools:layout="@layout/fragment_gallery" />
 
@@ -32,7 +32,7 @@
 
     <fragment
         android:id="@+id/nav_about"
-        android:name="com.example.instantscorekeeper.AboutSet.AboutFragment"
+        android:name="com.example.instantscorekeeper.about.AboutFragment"
         android:label="@string/menu_about"
         tools:layout="@layout/fragment_share" />
 
